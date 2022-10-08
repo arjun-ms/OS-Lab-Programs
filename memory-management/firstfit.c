@@ -32,7 +32,7 @@ int main(){
 				}
 			}
 		}
-		for(i=0;i<n;i++){
+		for(i=0;i<np;i++){
 			if(pflag[i]!=1){
 				printf("\n%d \t\t%d \t\tNot Allocated\n",i,psize[i]);
 			}
