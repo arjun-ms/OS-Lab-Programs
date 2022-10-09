@@ -29,7 +29,7 @@ void consumer(){
 	full = wait(full);
 	mutex = wait(mutex);
 	
-	printf("Producer produces item: %d\n",buff[i]);
+	printf("Consumer consumes item: %d\n",buff[i]);
 	i--;
 	item--;
 	
