@@ -39,3 +39,4 @@ int main(){
             printf("%d : %s\n", process[i], "Not Allocated");
         }
 	}
+}
