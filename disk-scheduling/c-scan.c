@@ -62,6 +62,7 @@ int main(){
 		}
 		
 		totalheadmovement = totalheadmovement + abs(RQ[i+1]-0);
+		totalheadmovement = totalheadmovement + abs(size-1-0);
 		head = size-1;
 		
 		for(i=n-1;i>=index;i--){
